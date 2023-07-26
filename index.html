@@ -50,7 +50,9 @@
         color: rgba(18, 18, 18, 0.6);
       }
     </style>
-    <!-- Website Title  -->
+    <!-- Website Favicon  -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- WebsiteTitle  -->
     <title>Fruit Burst</title>
   </head>
   <body>
@@ -58,23 +60,29 @@
     <header class="max-w-7xl my-0 mx-auto px-5">
       <!-- Navbar Section Start  -->
       <div
-        class="navbar p-0 lg:p-8 mt-8 mb-4 lg:my-12 lg:bg-sweet rounded-full"
+        class="navbar p-0 lg:py-4 lg:px-8 mt-8 mb-4 lg:my-10 lg:bg-sweet rounded-full"
       >
         <div class="navbar-start">
-          <a class="btn btn-ghost normal-case text-xl lg:hidden">
-            <img src="images/icon-md.png" alt=""
-          /></a>
+          <a class="normal-case block lg:hidden">
+            <div class="flex items-center justify-center gap-4">
+              <img class="max-h-12 inline" src="./images/logo.png" alt="" />
+              <h3 class="text-2xl text-tea font-extrabold">Fruit Burst</h3>
+            </div>
+          </a>
           <ul class="menu menu-horizontal hidden lg:flex text-lg font-medium">
-            <li><a class="text-white">Home</a></li>
-            <li><a class="text-white">About Us</a></li>
-            <li><a class="text-white">Shop</a></li>
-            <li><a class="text-white">All Fruits</a></li>
+            <li><a class="text-white px-2.5">Home</a></li>
+            <li><a class="text-white px-2.5">About Us</a></li>
+            <li><a class="text-white px-2.5">Shop</a></li>
+            <li><a class="text-white px-2.5">All Fruits</a></li>
           </ul>
         </div>
         <div class="navbar-center">
-          <a class="btn btn-ghost normal-case hidden lg:block text-xl">
-            <img class="max-h-12" src="images/icon-lg.png" alt=""
-          /></a>
+          <a class="normal-case hidden lg:block">
+            <div class="flex items-center justify-center gap-4">
+              <img class="max-h-12 inline" src="./images/logo.png" alt="" />
+              <h3 class="text-4xl text-white font-extrabold">Fruit Burst</h3>
+            </div>
+          </a>
         </div>
         <div class="navbar-end">
           <div class="dropdown">
@@ -117,10 +125,10 @@
             <input
               type="text"
               placeholder="Search here"
-              class="input font-medium input-bordered w-80 h-14 rounded-full text-zinc-400"
+              class="input font-medium input-bordered w-72 h-12 rounded-full text-zinc-400"
             />
             <i
-              class="absolute right-6 top-3 fa-solid fa-magnifying-glass text-tea text-2xl"
+              class="absolute right-6 top-2 fa-solid fa-magnifying-glass text-tea text-2xl"
             ></i>
           </div>
         </div>
@@ -128,10 +136,10 @@
       <!-- Navbar Section End  -->
 
       <!-- Carousel Section Start  -->
-      <div class="carousel h-48 md:h-full w-full">
+      <div class="carousel h-56 h-72 md:h-full w-full">
         <div
           id="slide1"
-          class="carousel-item relative py-20 md:py-32 lg:py-40 flex-col gap-4 items-center justify-center text-center w-full bg-[linear-gradient(#121212,#12121200),url('./images/banner1.png')] bg-center bg-cover"
+          class="carousel-item relative py-16 md:pt-12 md:pb-36 lg:pt-20 lg:pb-40 flex-col gap-4 items-center text-center w-full bg-[linear-gradient(#121212,#12121200),url('./images/banner1.png')] bg-center bg-cover rounded-lg"
         >
           <h1 class="text-2xl md:text-7xl font-extrabold text-white">
             Exotic tastes at your<br />doorstep
@@ -155,7 +163,7 @@
         </div>
         <div
           id="slide2"
-          class="carousel-item relative py-20 md:py-32 lg:py-40 flex-col gap-4 items-center justify-center text-center w-full bg-[linear-gradient(#121212,#12121200),url('./images/banner2.png')] bg-center bg-cover"
+          class="carousel-item relative py-16 md:pt-12 md:pb-36 lg:pt-20 lg:pb-40 flex-col gap-4 items-center text-center w-full bg-[linear-gradient(#121212,#12121200),url('./images/banner2.png')] bg-center bg-cover rounded-lg"
         >
           <h1 class="text-2xl md:text-7xl font-extrabold text-white">
             Exotic tastes at your<br />doorstep
@@ -179,7 +187,7 @@
         </div>
         <div
           id="slide3"
-          class="carousel-item relative py-20 md:py-32 lg:py-40 flex-col gap-4 items-center justify-center text-center w-full bg-[linear-gradient(#121212,#12121200),url('./images/banner3.png')] bg-center bg-cover"
+          class="carousel-item relative py-16 md:pt-12 md:pb-36 lg:pt-20 lg:pb-40 flex-col gap-4 items-center text-center w-full bg-[linear-gradient(#121212,#12121200),url('./images/banner3.png')] bg-center bg-cover rounded-lg"
         >
           <h1 class="text-2xl md:text-7xl font-extrabold text-white">
             Exotic tastes at your<br />doorstep
@@ -203,7 +211,7 @@
         </div>
         <div
           id="slide4"
-          class="carousel-item relative py-20 md:py-32 lg:py-40 flex-col gap-4 items-center justify-center text-center w-full bg-[linear-gradient(#121212,#12121200),url('./images/banner4.png')] bg-center bg-cover"
+          class="carousel-item relative py-16 md:pt-12 md:pb-36 lg:pt-20 lg:pb-40 flex-col gap-4 items-center text-center w-full bg-[linear-gradient(#121212,#12121200),url('./images/banner4.png')] bg-center bg-cover rounded-lg"
         >
           <h1 class="text-2xl md:text-7xl font-extrabold text-white">
             Exotic tastes at your<br />doorstep
@@ -273,28 +281,28 @@
           </p>
         </div>
         <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-          <div class="flex flex-col">
+          <div class="flex flex-col text-sm md:text-base">
             <span class="countdown text-3xl md:text-5xl font-extrabold">
               <span class="text-tea" style="--value: 15"></span>
             </span>
             Days
           </div>
           <span class="text-2xl md:text-4xl"> : </span>
-          <div class="flex flex-col">
+          <div class="flex flex-col text-sm md:text-base">
             <span class="countdown text-3xl md:text-5xl font-extrabold">
               <span class="text-tea" style="--value: 10"></span>
             </span>
             Hours
           </div>
           <span class="text-2xl md:text-4xl"> : </span>
-          <div class="flex flex-col">
+          <div class="flex flex-col text-sm md:text-base">
             <span class="countdown text-3xl md:text-5xl font-extrabold">
               <span class="text-tea" style="--value: 24"></span>
             </span>
             Minutes
           </div>
           <span class="text-2xl md:text-4xl"> : </span>
-          <div class="flex flex-col">
+          <div class="flex flex-col text-sm md:text-base">
             <span class="countdown text-3xl md:text-5xl font-extrabold">
               <span class="text-tea" style="--value: 26"></span>
             </span>
@@ -303,15 +311,13 @@
         </div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-12">
-        <div class="card bg-base-100 border border-gray-200">
+        <div class="card bg-base-100 border border-1 border-gray-200">
           <figure class="px-10 pt-10">
             <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title text-tea font-semibold">12.90$ - 18.85$</h2>
-            <hr
-              class="w-44 h-[2px] mx-auto bg-gray-200 border-0 rounded my-2 md:my-4"
-            />
+            <hr class="w-44 h-[2px] mx-auto bg-gray-400 rounded my-2 md:my-4" />
             <p>Apple</p>
             <div class="rating rating-md rating-half py-2">
               <input type="radio" name="rating-1" class="rating-hidden" />
@@ -462,15 +468,13 @@
             </div>
           </div>
         </div>
-        <div class="card bg-base-100 border border-gray-200">
+        <div class="card bg-base-100 border border-1 border-gray-200">
           <figure class="px-10 pt-10">
             <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title text-tea font-semibold">12.90$ - 18.85$</h2>
-            <hr
-              class="w-44 h-[2px] mx-auto bg-gray-200 border-0 rounded my-2 md:my-4"
-            />
+            <hr class="w-44 h-[2px] mx-auto bg-gray-400 rounded my-2 md:my-4" />
             <p>Orange</p>
             <div class="rating rating-md rating-half py-2">
               <input type="radio" name="rating-2" class="rating-hidden" />
@@ -621,15 +625,13 @@
             </div>
           </div>
         </div>
-        <div class="card bg-base-100 border border-gray-200">
+        <div class="card bg-base-100 border border-1 border-gray-200">
           <figure class="px-10 pt-10">
             <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title text-tea font-semibold">12.90$ - 18.85$</h2>
-            <hr
-              class="w-44 h-[2px] mx-auto bg-gray-200 border-0 rounded my-2 md:my-4"
-            />
+            <hr class="w-44 h-[2px] mx-auto bg-gray-400 rounded my-2 md:my-4" />
             <p>Red Dragon</p>
             <div class="rating rating-md rating-half py-2">
               <input type="radio" name="rating-3" class="rating-hidden" />
@@ -782,15 +784,13 @@
             </div>
           </div>
         </div>
-        <div class="card bg-base-100 border border-gray-200">
+        <div class="card bg-base-100 border border-1 border-gray-200">
           <figure class="px-10 pt-10">
             <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title text-tea font-semibold">12.90$ - 18.85$</h2>
-            <hr
-              class="w-44 h-[2px] mx-auto bg-gray-200 border-0 rounded my-2 md:my-4"
-            />
+            <hr class="w-44 h-[2px] mx-auto bg-gray-400 rounded my-2 md:my-4" />
             <p>Banana</p>
             <div class="rating rating-md rating-half py-2">
               <input type="radio" name="rating-10" class="rating-hidden" />
@@ -943,7 +943,9 @@
         </div>
       </div>
       <div class="flex items-center justify-center">
-        <button class="btn bg-sweet border-sweet text-white hover:text-tea">
+        <button
+          class="btn bg-sweet border-sweet text-white hover:text-tea normal-case font-extrabold"
+        >
           Shop All
         </button>
       </div>
@@ -955,12 +957,10 @@
       <div
         class="hero bg-[url('./images/team.png')] bg-cover bg-center text-center rounded-lg"
       >
-        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-overlay bg-tea bg-opacity-70"></div>
         <div class="p-8 pb-6 md:pt-20 md:pb-12">
           <div class="space-y-4">
-            <h3 class="text-3xl font-extrabold text-white">
-              Meet the team section
-            </h3>
+            <h3 class="text-3xl font-extrabold text-white">Meet the team</h3>
             <p class="text-white px-4">
               Contrary to popular belief, is not simply random text. It has
               roots in a piece of classical<br />Latin literature from 45 BC,
@@ -1252,9 +1252,12 @@
     <!-- Why choose us section End -->
 
     <!-- Footer Section Start  -->
-    <footer class="footer footer-center p-10 bg-tea text-base-content rounded">
-      <div>
-        <img src="./images/icon-lg.png" alt="" />
+    <footer
+      class="footer footer-center p-10 md:p-20 bg-tea text-base-content rounded"
+    >
+      <div class="flex items-center justify-center gap-4">
+        <img class="max-h-12 inline" src="./images/logo.png" alt="" />
+        <h3 class="text-2xl text-white font-extrabold">Fruit Burst</h3>
       </div>
       <div class="flex flex-wrap justify-center gap-x-12 gap-y-4">
         <a class="link text-white link-hover">Home</a>
